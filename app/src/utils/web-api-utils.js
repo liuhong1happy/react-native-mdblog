@@ -29,7 +29,7 @@ module.exports = {
             url:"/config.json",
             type:"get",
             success:function(res){
-                systemActions.receivedConfig(res);
+                systemActions.receivedConfig(JSON.parse(res));
             },
             error:function(e,err){
                 console.log(e,err);
