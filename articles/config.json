@@ -1,0 +1,21 @@
+{
+    appVersion:"v0.0.1",
+    appName:"liuhong1happy's Blog",
+    channels:[
+        {
+            channelName:"frontend",
+            channelTitle:"Web前端",
+            channelTypes:["html5","css3","http","javascript"],
+            channelPosts:[
+                {
+                    postName:"深入了解HTML5",
+                    postDate:"2016-06-19",
+                    postTitle:"深入了解HTML5",
+                    postImage:"frontend/images/html5.jpg",
+                    postType:"html5",
+                    postPath:"frontend/html5/深入了解HTML5.md"
+                }
+            ]
+        }
+    ]
+}
