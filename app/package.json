@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-native": "0.27.2",
+    "flux":"^2.1.1",
+    "events":"^1.1.0",
+    "keymirror":"^0.1.1",
+	"object-assign": "^2.0.0"
+  }
+}
